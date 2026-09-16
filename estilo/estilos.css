@@ -1,1 +1,222 @@
-:horizontal
+/* =========================================
+   VARIABLES GLOBALES (Paleta de colores y fuentes)
+   ========================================= */
+:root {
+  --color-rojo-vuelta: #E60000; /* Rojo del maillot de líder */
+  --color-amarillo: #FFC107;    /* Amarillo bandera de España */
+  --color-oscuro: #1A1A1A;      /* Gris casi negro para textos y footer */
+  --color-claro: #F8F9FA;       /* Fondo general claro */
+  --color-blanco: #FFFFFF;
+  
+  /* Fuentes deportivas y limpias */
+  --fuente-principal: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --fuente-titulos: 'Oswald', sans-serif;
+}
+
+/* =========================================
+   RESET BÁSICO
+   ========================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  color: var(--color-oscuro);
+  background-color: var(--color-claro);
+  line-height: 1.6;
+}
+
+/* =========================================
+   CABECERA (Header y Navegación)
+   ========================================= */
+.header {
+  background-color: var(--color-rojo-vuelta);
+  color: var(--color-blanco);
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo h1 {
+  font-family: var(--fuente-titulos);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-style: italic; /* Da sensación de velocidad */
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: var(--color-blanco);
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-amarillo);
+}
+
+/* =========================================
+   SECCIÓN HERO (Portada principal)
+   ========================================= */
+.hero {
+  /* Requiere que añadas una imagen de fondo de ciclistas llamada hero-bg.jpg */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-blanco);
+  padding: 0 20px;
+  border-bottom: 5px solid var(--color-amarillo);
+}
+
+.hero h2 {
+  font-family: var(--fuente-titulos);
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+/* =========================================
+   CONTENEDOR Y TÍTULOS DE SECCIÓN
+   ========================================= */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.seccion-titulo {
+  font-family: var(--fuente-titulos);
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.seccion-titulo::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--color-rojo-vuelta);
+  margin: 10px auto 0;
+}
+
+/* =========================================
+   GRID DE ETAPAS (Tarjetas)
+   ========================================= */
+.etapas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tarjeta-etapa {
+  background: var(--color-blanco);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid var(--color-rojo-vuelta);
+}
+
+.tarjeta-etapa:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.tarjeta-cuerpo {
+  padding: 1.5rem;
+}
+
+.tarjeta-fecha {
+  font-size: 0.85rem;
+  color: #777;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.tarjeta-titulo {
+  font-family: var(--fuente-titulos);
+  font-size: 1.5rem;
+  color: var(--color-oscuro);
+  margin-bottom: 1rem;
+}
+
+/* =========================================
+   BOTONES
+   ========================================= */
+.btn {
+  display: inline-block;
+  background-color: var(--color-rojo-vuelta);
+  color: var(--color-blanco);
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #C00000;
+  transform: scale(1.05);
+}
+
+.btn-secundario {
+  background-color: transparent;
+  border: 2px solid var(--color-blanco);
+}
+
+.btn-secundario:hover {
+  background-color: var(--color-blanco);
+  color: var(--color-rojo-vuelta);
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.footer {
+  background-color: var(--color-oscuro);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
+  border-top: 5px solid var(--color-rojo-vuelta);
+}
+
+.footer p {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
