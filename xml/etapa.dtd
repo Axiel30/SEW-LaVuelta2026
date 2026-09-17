@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ELEMENTO RAÍZ Y ESTRUCTURA GENERAL -->
+<!-- Se ha eliminado 'tipo_etapa' de la lista de elementos hijos de la raíz -->
+<!ELEMENT trabajo_etapa_vuelta (numero_etapa, nombre_etapa, fecha_etapa, datos_etapa, recorrido, hitos_etapa, puntos_trayecto_anonimos, clasificaciones_carrera, referencias_bibliograficas, galeria_fotografias, galeria_videos, galeria_sonidos)>
+
+<!-- 1. IDENTIFICACIÓN GENERAL -->
+<!ELEMENT numero_etapa (#PCDATA)>
+<!ELEMENT nombre_etapa (#PCDATA)>
+<!ELEMENT fecha_etapa (#PCDATA)>
+
+<!-- 2. DETALLES DE LA ETAPA (Unidades como atributos) -->
+<!-- Se ha añadido 'tipo_etapa' al final de los datos de la etapa -->
+<!ELEMENT datos_etapa (longitud, tiempo_ganador, velocidad_media, desnivel_acumulado, tipo_etapa)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidades CDATA #REQUIRED>
+
+<!ELEMENT tiempo_ganador (#PCDATA)>
+
+<!ELEMENT velocidad_media (#PCDATA)>
+<!ATTLIST velocidad_media unidades CDATA #REQUIRED>
+
+<!ELEMENT desnivel_acumulado (#PCDATA)>
+<!ATTLIST desnivel_acumulado unidades CDATA #REQUIRED>
+
+<!-- 7. TIPO DE ETAPA (Movido aquí para agrupación lógica) -->
+<!ELEMENT tipo_etapa (#PCDATA)>
+
+<!-- 3. RECORRIDO (Salida y Meta con georreferenciación) -->
+<!ELEMENT recorrido (lugar_salida, lugar_meta)>
+<!ELEMENT lugar_salida (nombre, georreferenciacion)>
+<!ELEMENT lugar_meta (nombre, georreferenciacion)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!-- GEORREFERENCIACIÓN (Reutilizable para salida, meta, hitos y puntos anónimos) -->
+<!ELEMENT georreferenciacion (longitud, latitud, altitud)>
+<!-- Nota: 'longitud' ya está definido arriba con su atributo 'unidades', se reutiliza -->
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidades CDATA #REQUIRED>
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidades CDATA #REQUIRED>
+
+<!-- 4. HITOS IMPORTANTES (Sprints, Puertos) -->
+<!ELEMENT hitos_etapa (hito+)>
+<!ELEMENT hito (georreferenciacion, distancia_salida)>
+<!ATTLIST hito tipo CDATA #REQUIRED>
+
+<!ELEMENT distancia_salida (#PCDATA)>
+<!ATTLIST distancia_salida unidades CDATA #REQUIRED>
+
+<!-- 5. PUNTOS ANÓNIMOS -->
+<!ELEMENT puntos_trayecto_anonimos (punto_anonimo+)>
+<!ELEMENT punto_anonimo (georreferenciacion, distancia_salida)>
+
+<!-- 6. CLASIFICACIONES DE CARRERA -->
+<!ELEMENT clasificaciones_carrera (clasificacion_individual_etapa, clasificacion_general, clasificacion_equipos)>
+
+<!-- Para garantizar "los 3 primeros", obligamos a que haya exactamente 3 elementos 'ciclista' o 'equipo' -->
+<!ELEMENT clasificacion_individual_etapa (ciclista, ciclista, ciclista)>
+<!ELEMENT clasificacion_general (ciclista, ciclista, ciclista)>
+
+<!-- El ciclista puede tener tiempo de etapa (clasif. individual) o tiempo general (clasif. general) -->
+<!ELEMENT ciclista (nombre, equipo, (tiempo_etapa | tiempo_general), diferencia)>
+<!ATTLIST ciclista posicion CDATA #REQUIRED>
+
+<!ELEMENT tiempo_etapa (#PCDATA)>
+<!ELEMENT tiempo_general (#PCDATA)>
+<!ELEMENT diferencia (#PCDATA)>
+
+<!ELEMENT clasificacion_equipos (equipo, equipo, equipo)>
+
+<!-- NOTA TÉCNICA: El elemento <equipo> se usa como texto simple dentro de <ciclista> 
+     y como elemento complejo en <clasificacion_equipos>. 
+     Por tanto, en DTD se define como contenido mixto (#PCDATA | elementos)* -->
+<!ELEMENT equipo (#PCDATA | nombre | tiempo_equipos | diferencia)*>
+<!ATTLIST equipo posicion CDATA #IMPLIED>
+
+<!ELEMENT tiempo_equipos (#PCDATA)>
+
+<!-- 8. REFERENCIAS BIBLIOGRÁFICAS -->
+<!-- (referencia, referencia, referencia+) obliga a que haya 3 obligatorias y más opcionales -->
+<!ELEMENT referencias_bibliograficas (referencia, referencia, referencia+)>
+<!ELEMENT referencia (titulo, fuente, enlace)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fuente (#PCDATA)>
+<!ELEMENT enlace (#PCDATA)>
+
+<!-- 9. GALERÍAS MULTIMEDIA -->
+
+<!-- Fotografías (mínimo 1, máximo 5). 1 obligatoria, 4 opcionales (?) -->
+<!ELEMENT galeria_fotografias (fotografia, fotografia?, fotografia?, fotografia?, fotografia?)>
+<!ELEMENT fotografia (#PCDATA)>
+
+<!-- Vídeos (mínimo 1, máximo 3). 1 obligatorio, 2 opcionales (?) -->
+<!ELEMENT galeria_videos (video, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+
+<!-- Sonidos/Podcasts (mínimo 1, máximo 3). 1 obligatorio, 2 opcionales (?) -->
+<!ELEMENT galeria_sonidos (sonido, sonido?, sonido?)>
+<!ELEMENT sonido (#PCDATA)>

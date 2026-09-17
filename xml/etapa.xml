@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trabajo_etapa_vuelta SYSTEM "etapa.dtd">
+<trabajo_etapa_vuelta>
+    <!-- Identificación general de la etapa -->
+    <numero_etapa>16</numero_etapa>
+    <nombre_etapa>Cortegana-La Rábida.Palos de la Frontera</nombre_etapa>
+    <fecha_etapa>08-09-2026</fecha_etapa>
+    
+    <!-- Detalles de la etapa -->
+    <datos_etapa>
+        <longitud unidades="km">181,1</longitud>
+        <tiempo_ganador>3:56:33</tiempo_ganador>
+        <velocidad_media unidades="km/h">45,935</velocidad_media>
+        <desnivel_acumulado unidades="m">2256</desnivel_acumulado>
+        <tipo_etapa>llana</tipo_etapa>
+    </datos_etapa>
+    
+    <!-- Trayecto y Localizaciones Geográficas (Puntos de Salida y Meta) -->
+    <recorrido>
+        <lugar_salida>
+            <nombre>Cortegana</nombre>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.837000</longitud>
+                <latitud unidades="grados decimales">37.915000</latitud>
+                <altitud unidades="metros">665.0</altitud>
+            </georreferenciacion>
+        </lugar_salida>
+        <lugar_meta>
+            <nombre>La Rábida. Palos de la Frontera</nombre>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.903000</longitud>
+                <latitud unidades="grados decimales">37.195000</latitud>
+                <altitud unidades="metros">12.0</altitud>
+            </georreferenciacion>
+        </lugar_meta>
+    </recorrido>
+    
+    <!-- Hitos importantes de la etapa (Puertos, Sprints) -->
+    <!-- Se definen por coordenadas y distancia al lugar de salida -->
+    <hitos_etapa>
+        <hito tipo="Puerto 3ª categoría">
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.880000</longitud>
+                <latitud unidades="grados decimales">37.930000</latitud>
+                <altitud unidades="metros">820.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">35.0</distancia_salida>
+        </hito>
+        
+        <hito tipo="Sprint intermedio">
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.560000</longitud>
+                <latitud unidades="grados decimales">37.890000</latitud>
+                <altitud unidades="metros">730.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">70.0</distancia_salida>
+        </hito>
+        
+        <hito tipo="Puerto 2ª categoría">
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.590000</longitud>
+                <latitud unidades="grados decimales">37.700000</latitud>
+                <altitud unidades="metros">910.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">110.0</distancia_salida>
+        </hito>
+        
+        <hito tipo="Sprint bonificado">
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.750000</longitud>
+                <latitud unidades="grados decimales">37.570000</latitud>
+                <altitud unidades="metros">260.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">140.0</distancia_salida>
+        </hito>
+        
+        <hito tipo="Puerto Especial Bonificado">
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.890000</longitud>
+                <latitud unidades="grados decimales">37.280000</latitud>
+                <altitud unidades="metros">45.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">160.0</distancia_salida>
+        </hito>
+    </hitos_etapa>
+    
+    <!-- Puntos anónimos para mejorar la precisión del trayecto -->
+    <!-- Se definen por coordenadas y distancia al lugar de salida (mínimo 1, número variable) -->
+    <puntos_trayecto_anonimos>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.700000</longitud>
+                <latitud unidades="grados decimales">37.850000</latitud>
+                <altitud unidades="metros">750.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">50.0</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.610000</longitud>
+                <latitud unidades="grados decimales">37.780000</latitud>
+                <altitud unidades="metros">880.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">100.0</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.680000</longitud>
+                <latitud unidades="grados decimales">37.620000</latitud>
+                <altitud unidades="metros">350.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">125.0</distancia_salida>
+        </punto_anonimo>
+    </puntos_trayecto_anonimos>
+    
+    <!-- Clasificaciones de la carrera después de la etapa -->
+    <clasificaciones_carrera>
+        <!-- Los tres primeros clasificados de la etapa -->
+        <clasificacion_individual_etapa>
+            <ciclista posicion="1">
+                <nombre>Alejandro Valverde</nombre>
+                <equipo>Movistar Team</equipo>
+                <tiempo_etapa>3:56:33</tiempo_etapa>
+                <diferencia>0:00:00</diferencia>
+            </ciclista>
+            <ciclista posicion="2">
+                <nombre>Joaquim Rodríguez</nombre>
+                <equipo>Team Katusha</equipo>
+                <tiempo_etapa>3:56:45</tiempo_etapa>
+                <diferencia>+0:00:12</diferencia>
+            </ciclista>
+            <ciclista posicion="3">
+                <nombre>Rigoberto Urán</nombre>
+                <equipo>Omega Pharma - Quick-Step</equipo>
+                <tiempo_etapa>3:57:02</tiempo_etapa>
+                <diferencia>+0:00:29</diferencia>
+            </ciclista>
+        </clasificacion_individual_etapa>
+        
+        <!-- Los tres primeros clasificados de la clasificación general -->
+        <clasificacion_general>
+            <ciclista posicion="1">
+                <nombre>Chris Froome</nombre>
+                <equipo>Team Sky</equipo>
+                <tiempo_general>65:12:30</tiempo_general>
+                <diferencia>0:00:00</diferencia>
+            </ciclista>
+            <ciclista posicion="2">
+                <nombre>Alberto Contador</nombre>
+                <equipo>Tinkoff-Saxo</equipo>
+                <tiempo_general>65:13:15</tiempo_general>
+                <diferencia>+0:00:45</diferencia>
+            </ciclista>
+            <ciclista posicion="3">
+                <nombre>Vincenzo Nibali</nombre>
+                <equipo>Astana Pro Team</equipo>
+                <tiempo_general>65:14:10</tiempo_general>
+                <diferencia>+0:01:40</diferencia>
+            </ciclista>
+        </clasificacion_general>
+        
+        <!-- Los tres primeros equipos de la clasificación por equipos -->
+        <clasificacion_equipos>
+            <equipo posicion="1">
+                <nombre>Movistar Team</nombre>
+                <tiempo_equipos>195:40:00</tiempo_equipos>
+                <diferencia>0:00:00</diferencia>
+            </equipo>
+            <equipo posicion="2">
+                <nombre>Team Sky</nombre>
+                <tiempo_equipos>195:45:30</tiempo_equipos>
+                <diferencia>+0:05:30</diferencia>
+            </equipo>
+            <equipo posicion="3">
+                <nombre>Astana Pro Team</nombre>
+                <tiempo_equipos>195:52:15</tiempo_equipos>
+                <diferencia>+0:12:15</diferencia>
+            </equipo>
+        </clasificacion_equipos>
+    </clasificaciones_carrera>
+    
+    <!-- Referencias y bibliografía (mínimo 3) -->
+    <referencias_bibliograficas>
+        <!-- EJEMPLOS: Reemplaza con información real y fuentes válidas. -->
+        <referencia>
+            <titulo>Información sobre Cortegana y su castillo</titulo>
+            <fuente>Turismo de Huelva (Ejemplo)</fuente>
+            <enlace>https://www.turismohuelva.org/es/pueblos/cortegana/ (Ejemplo)</enlace>
+        </referencia>
+        <referencia>
+            <titulo>Guía histórica de La Rábida y el Monasterio</titulo>
+            <fuente>Andalucía.org (Ejemplo)</fuente>
+            <enlace>https://www.andalucia.org/es/palos-de-la-frontera-la-rabida/ (Ejemplo)</enlace>
+        </referencia>
+        <referencia>
+            <titulo>Noticia sobre la Etapa 16 de la Vuelta</titulo>
+            <fuente>Diario Deportivo (Ejemplo)</fuente>
+            <enlace>https://www.ejemplo.com/etapa16-vuelta-resumen/ (Ejemplo)</enlace>
+        </referencia>
+    </referencias_bibliograficas>
+    
+    <!-- Galería de fotografías de la etapa (mínimo 1, máximo 5) -->
+    <!-- Las fotografías deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
+    <galeria_fotografias>
+        <fotografia>Salida.jpg</fotografia>
+        <fotografia>Peloton.jpg</fotografia>
+        <fotografia>Meta.jpg</fotografia>
+        <fotografia>Podio.jpg</fotografia>
+    </galeria_fotografias>
+    
+    <!-- Galería de vídeos de la etapa (mínimo 1, máximo 3) -->
+    <!-- Los vídeos deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
+    <!-- Si es muy grande se debe recortar. Solo se añade el vídeo resumen solicitado. -->
+    <galeria_videos>
+        <video>VideoResumen.mp4</video>
+    </galeria_videos>
+    
+    <!-- Galería de sonidos (podcasts) de la etapa (mínimo 1, máximo 3) -->
+    <!-- Los podcasts deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
+    <!-- Si es muy grande se debe recortar. Se añaden 3 ejemplos. -->
+    <galeria_sonidos>
+        <sonido>Entrevista_Ganador.mp3</sonido>
+        <sonido>Atmosfera_Huelva.mp3</sonido>
+        <sonido>Guia_Audio_Monasterio_La_Rabida.mp3</sonido>
+    </galeria_sonidos>
+</trabajo_etapa_vuelta>
