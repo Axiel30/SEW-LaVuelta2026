@@ -12,7 +12,7 @@
         <tiempo_ganador>3:56:33</tiempo_ganador>
         <velocidad_media unidades="km/h">45,935</velocidad_media>
         <desnivel_acumulado unidades="m">2256</desnivel_acumulado>
-        <tipo_etapa>llana</tipo_etapa>
+        <tipo_etapa>Ondulada</tipo_etapa>
     </datos_etapa>
     
     <!-- Trayecto y Localizaciones Geográficas (Puntos de Salida y Meta) -->
@@ -36,7 +36,6 @@
     </recorrido>
     
     <!-- Hitos importantes de la etapa (Puertos, Sprints) -->
-    <!-- Se definen por coordenadas y distancia al lugar de salida -->
     <hitos_etapa>
         <hito tipo="Puerto 3ª categoría">
             <georreferenciacion>
@@ -84,34 +83,186 @@
         </hito>
     </hitos_etapa>
     
-    <!-- Puntos anónimos para mejorar la precisión del trayecto -->
-    <!-- Se definen por coordenadas y distancia al lugar de salida (mínimo 1, número variable) -->
+    <!-- Puntos anónimos para mejorar la precisión del trayecto (Total: 20 con distancias aleatorias) -->
     <puntos_trayecto_anonimos>
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.700000</longitud>
+                <longitud unidades="grados decimales">-6.840000</longitud>
+                <latitud unidades="grados decimales">37.918000</latitud>
+                <altitud unidades="metros">680.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">4.2</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.852000</longitud>
+                <latitud unidades="grados decimales">37.922000</latitud>
+                <altitud unidades="metros">715.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">11.7</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.861000</longitud>
+                <latitud unidades="grados decimales">37.924000</latitud>
+                <altitud unidades="metros">742.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">18.3</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.872000</longitud>
+                <latitud unidades="grados decimales">37.927000</latitud>
+                <altitud unidades="metros">790.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">27.9</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.878000</longitud>
+                <latitud unidades="grados decimales">37.929000</latitud>
+                <altitud unidades="metros">810.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">33.4</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.780000</longitud>
+                <latitud unidades="grados decimales">37.890000</latitud>
+                <altitud unidades="metros">775.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">41.8</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.715000</longitud>
+                <latitud unidades="grados decimales">37.860000</latitud>
+                <altitud unidades="metros">755.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">48.5</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.650000</longitud>
+                <latitud unidades="grados decimales">37.840000</latitud>
+                <altitud unidades="metros">745.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">56.2</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.580000</longitud>
+                <latitud unidades="grados decimales">37.870000</latitud>
+                <altitud unidades="metros">735.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">64.9</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.565000</longitud>
                 <latitud unidades="grados decimales">37.850000</latitud>
-                <altitud unidades="metros">750.0</altitud>
+                <altitud unidades="metros">770.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">50.0</distancia_salida>
+            <distancia_salida unidades="km">77.3</distancia_salida>
         </punto_anonimo>
         
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.610000</longitud>
-                <latitud unidades="grados decimales">37.780000</latitud>
-                <altitud unidades="metros">880.0</altitud>
+                <longitud unidades="grados decimales">-6.585000</longitud>
+                <latitud unidades="grados decimales">37.810000</latitud>
+                <altitud unidades="metros">820.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">100.0</distancia_salida>
+            <distancia_salida unidades="km">88.1</distancia_salida>
         </punto_anonimo>
         
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.680000</longitud>
-                <latitud unidades="grados decimales">37.620000</latitud>
-                <altitud unidades="metros">350.0</altitud>
+                <longitud unidades="grados decimales">-6.600000</longitud>
+                <latitud unidades="grados decimales">37.790000</latitud>
+                <altitud unidades="metros">860.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">125.0</distancia_salida>
+            <distancia_salida unidades="km">95.6</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.605000</longitud>
+                <latitud unidades="grados decimales">37.720000</latitud>
+                <altitud unidades="metros">890.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">107.4</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.635000</longitud>
+                <latitud unidades="grados decimales">37.650000</latitud>
+                <altitud unidades="metros">600.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">118.2</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.695000</longitud>
+                <latitud unidades="grados decimales">37.610000</latitud>
+                <altitud unidades="metros">320.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">129.5</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.740000</longitud>
+                <latitud unidades="grados decimales">37.575000</latitud>
+                <altitud unidades="metros">270.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">138.7</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.790000</longitud>
+                <latitud unidades="grados decimales">37.450000</latitud>
+                <altitud unidades="metros">180.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">147.3</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.865000</longitud>
+                <latitud unidades="grados decimales">37.310000</latitud>
+                <altitud unidades="metros">85.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">156.8</distancia_salida>
+        </punto_anonimo>
+
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.898000</longitud>
+                <latitud unidades="grados decimales">37.240000</latitud>
+                <altitud unidades="metros">25.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">168.4</distancia_salida>
+        </punto_anonimo>
+        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.901000</longitud>
+                <latitud unidades="grados decimales">37.205000</latitud>
+                <altitud unidades="metros">15.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">177.9</distancia_salida>
         </punto_anonimo>
     </puntos_trayecto_anonimos>
     
@@ -120,70 +271,66 @@
         <!-- Los tres primeros clasificados de la etapa -->
         <clasificacion_individual_etapa>
             <ciclista posicion="1">
-                <nombre>Alejandro Valverde</nombre>
-                <equipo>Movistar Team</equipo>
+                <nombre>James Matthew Brennan</nombre>
+                <equipo>TEAM VISMA | LEASE A BIKE</equipo>
                 <tiempo_etapa>3:56:33</tiempo_etapa>
-                <diferencia>0:00:00</diferencia>
             </ciclista>
             <ciclista posicion="2">
-                <nombre>Joaquim Rodríguez</nombre>
-                <equipo>Team Katusha</equipo>
-                <tiempo_etapa>3:56:45</tiempo_etapa>
-                <diferencia>+0:00:12</diferencia>
+                <nombre>Bryan Coquard</nombre>
+                <equipo>COFIDIS</equipo>
+                <tiempo_etapa>3:56:33</tiempo_etapa>
+                <diferencia>+0:00:00</diferencia>
             </ciclista>
             <ciclista posicion="3">
-                <nombre>Rigoberto Urán</nombre>
-                <equipo>Omega Pharma - Quick-Step</equipo>
+                <nombre>Vito Braet</nombre>
+                <equipo>LOTTO INTERMARCHE</equipo>
                 <tiempo_etapa>3:57:02</tiempo_etapa>
-                <diferencia>+0:00:29</diferencia>
+                <diferencia>+0:00:00</diferencia>
             </ciclista>
         </clasificacion_individual_etapa>
         
         <!-- Los tres primeros clasificados de la clasificación general -->
         <clasificacion_general>
             <ciclista posicion="1">
-                <nombre>Chris Froome</nombre>
-                <equipo>Team Sky</equipo>
-                <tiempo_general>65:12:30</tiempo_general>
-                <diferencia>0:00:00</diferencia>
+                <nombre>Enric Mas</nombre>
+                <equipo>MOVISTAR TEAM</equipo>
+                <tiempo_general>56:02:29</tiempo_general>
             </ciclista>
             <ciclista posicion="2">
-                <nombre>Alberto Contador</nombre>
-                <equipo>Tinkoff-Saxo</equipo>
-                <tiempo_general>65:13:15</tiempo_general>
-                <diferencia>+0:00:45</diferencia>
+                <nombre>Félix Gall</nombre>
+                <equipo>DECATHLON CMA CGM TEAM</equipo>
+                <tiempo_general>56:04:35</tiempo_general>
+                <diferencia>+0:02:06</diferencia>
             </ciclista>
             <ciclista posicion="3">
-                <nombre>Vincenzo Nibali</nombre>
-                <equipo>Astana Pro Team</equipo>
-                <tiempo_general>65:14:10</tiempo_general>
-                <diferencia>+0:01:40</diferencia>
+                <nombre>Primoz Roglic</nombre>
+                <equipo>RED BULL - BORA - HANSGROHE</equipo>
+                <tiempo_general>56:04:39</tiempo_general>
+                <diferencia>+0:02:10</diferencia>
             </ciclista>
         </clasificacion_general>
         
         <!-- Los tres primeros equipos de la clasificación por equipos -->
         <clasificacion_equipos>
             <equipo posicion="1">
-                <nombre>Movistar Team</nombre>
-                <tiempo_equipos>195:40:00</tiempo_equipos>
-                <diferencia>0:00:00</diferencia>
+                <nombre>DECATHLON CMA CGM TEAM</nombre>
+                <tiempo_equipos>168:27:56</tiempo_equipos>
             </equipo>
             <equipo posicion="2">
-                <nombre>Team Sky</nombre>
-                <tiempo_equipos>195:45:30</tiempo_equipos>
-                <diferencia>+0:05:30</diferencia>
+                <nombre>XDS ASTANA TEAM</nombre>
+                <tiempo_equipos>169:25:28</tiempo_equipos>
+                <diferencia>+0:57:32</diferencia>
             </equipo>
             <equipo posicion="3">
-                <nombre>Astana Pro Team</nombre>
-                <tiempo_equipos>195:52:15</tiempo_equipos>
-                <diferencia>+0:12:15</diferencia>
+                <nombre>BAHRAIN VICTORIOUS</nombre>
+                <tiempo_equipos>169:39:11</tiempo_equipos>
+                <diferencia>+1:11:15</diferencia>
             </equipo>
         </clasificacion_equipos>
     </clasificaciones_carrera>
     
-    <!-- Referencias y bibliografía (mínimo 3) -->
+    <!-- Referencias y bibliografía -->
     <referencias_bibliograficas>
-        <!-- EJEMPLOS: Reemplaza con información real y fuentes válidas. -->
         <referencia>
             <titulo>Información sobre Cortegana y su castillo</titulo>
             <fuente>Turismo de Huelva (Ejemplo)</fuente>
@@ -201,25 +348,20 @@
         </referencia>
     </referencias_bibliograficas>
     
-    <!-- Galería de fotografías de la etapa (mínimo 1, máximo 5) -->
-    <!-- Las fotografías deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
+    <!-- Galería de fotografías de la etapa -->
     <galeria_fotografias>
-        <fotografia>Salida.jpg</fotografia>
-        <fotografia>Peloton.jpg</fotografia>
-        <fotografia>Meta.jpg</fotografia>
-        <fotografia>Podio.jpg</fotografia>
+        <fotografia>../multimedia/Salida.jpg</fotografia>
+        <fotografia>../multimedia/Peloton.jpg</fotografia>
+        <fotografia>../multimedia/Meta.jpg</fotografia>
+        <fotografia>../multimedia/Podio.jpg</fotografia>
     </galeria_fotografias>
     
-    <!-- Galería de vídeos de la etapa (mínimo 1, máximo 3) -->
-    <!-- Los vídeos deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
-    <!-- Si es muy grande se debe recortar. Solo se añade el vídeo resumen solicitado. -->
+    <!-- Galería de vídeos de la etapa -->
     <galeria_videos>
         <video>VideoResumen.mp4</video>
     </galeria_videos>
     
-    <!-- Galería de sonidos (podcasts) de la etapa (mínimo 1, máximo 3) -->
-    <!-- Los podcasts deben estar en la máquina local y se deben incluir en el archivo empaquetado. -->
-    <!-- Si es muy grande se debe recortar. Se añaden 3 ejemplos. -->
+    <!-- Galería de sonidos (podcasts) de la etapa -->
     <galeria_sonidos>
         <sonido>Entrevista_Ganador.mp3</sonido>
         <sonido>Atmosfera_Huelva.mp3</sonido>

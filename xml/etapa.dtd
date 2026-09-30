@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- ELEMENTO RAÍZ Y ESTRUCTURA GENERAL -->
-<!-- Se ha eliminado 'tipo_etapa' de la lista de elementos hijos de la raíz -->
 <!ELEMENT trabajo_etapa_vuelta (numero_etapa, nombre_etapa, fecha_etapa, datos_etapa, recorrido, hitos_etapa, puntos_trayecto_anonimos, clasificaciones_carrera, referencias_bibliograficas, galeria_fotografias, galeria_videos, galeria_sonidos)>
 
 <!-- 1. IDENTIFICACIÓN GENERAL -->
@@ -10,7 +9,6 @@
 <!ELEMENT fecha_etapa (#PCDATA)>
 
 <!-- 2. DETALLES DE LA ETAPA (Unidades como atributos) -->
-<!-- Se ha añadido 'tipo_etapa' al final de los datos de la etapa -->
 <!ELEMENT datos_etapa (longitud, tiempo_ganador, velocidad_media, desnivel_acumulado, tipo_etapa)>
 <!ELEMENT longitud (#PCDATA)>
 <!ATTLIST longitud unidades CDATA #REQUIRED>
@@ -23,7 +21,6 @@
 <!ELEMENT desnivel_acumulado (#PCDATA)>
 <!ATTLIST desnivel_acumulado unidades CDATA #REQUIRED>
 
-<!-- 7. TIPO DE ETAPA (Movido aquí para agrupación lógica) -->
 <!ELEMENT tipo_etapa (#PCDATA)>
 
 <!-- 3. RECORRIDO (Salida y Meta con georreferenciación) -->
@@ -55,12 +52,12 @@
 <!-- 6. CLASIFICACIONES DE CARRERA -->
 <!ELEMENT clasificaciones_carrera (clasificacion_individual_etapa, clasificacion_general, clasificacion_equipos)>
 
-<!-- Para garantizar "los 3 primeros", obligamos a que haya exactamente 3 elementos 'ciclista' o 'equipo' -->
+<!-- Obligamos a que haya exactamente 3 elementos 'ciclista' o 'equipo' -->
 <!ELEMENT clasificacion_individual_etapa (ciclista, ciclista, ciclista)>
 <!ELEMENT clasificacion_general (ciclista, ciclista, ciclista)>
 
 <!-- El ciclista puede tener tiempo de etapa (clasif. individual) o tiempo general (clasif. general) -->
-<!ELEMENT ciclista (nombre, equipo, (tiempo_etapa | tiempo_general), diferencia)>
+<!ELEMENT ciclista (nombre, equipo, (tiempo_etapa | tiempo_general), diferencia?)>
 <!ATTLIST ciclista posicion CDATA #REQUIRED>
 
 <!ELEMENT tiempo_etapa (#PCDATA)>
@@ -69,9 +66,6 @@
 
 <!ELEMENT clasificacion_equipos (equipo, equipo, equipo)>
 
-<!-- NOTA TÉCNICA: El elemento <equipo> se usa como texto simple dentro de <ciclista> 
-     y como elemento complejo en <clasificacion_equipos>. 
-     Por tanto, en DTD se define como contenido mixto (#PCDATA | elementos)* -->
 <!ELEMENT equipo (#PCDATA | nombre | tiempo_equipos | diferencia)*>
 <!ATTLIST equipo posicion CDATA #IMPLIED>
 
