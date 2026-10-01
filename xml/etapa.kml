@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Planimetría de la Etapa</name>
+  <Style id="rojo"><IconStyle><color>ff0000ff</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="verde"><IconStyle><color>ff00ff00</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="azul"><IconStyle><color>ffff0000</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="amarillo"><IconStyle><color>ff00ffff</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="linea"><LineStyle><color>ff0000ff</color><width>4</width></LineStyle></Style>
+  <Placemark>
+    <name>Cortegana</name>
+    <description>Salida de la etapa</description>
+    <styleUrl>#rojo</styleUrl>
+    <Point>
+      <coordinates>-6.837,37.915,665.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto 3ª Categoría</name>
+    <description>Puerto de Montaña</description>
+    <styleUrl>#verde</styleUrl>
+    <Point>
+      <coordinates>-6.880,37.930,820.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sprint Intermedio</name>
+    <description>Sprint Intermedio</description>
+    <styleUrl>#azul</styleUrl>
+    <Point>
+      <coordinates>-6.560,37.890,730.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto 2ª Categoría</name>
+    <description>Puerto de Montaña</description>
+    <styleUrl>#verde</styleUrl>
+    <Point>
+      <coordinates>-6.590,37.700,910.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sprint Bonificado</name>
+    <description>Sprint Intermedio</description>
+    <styleUrl>#azul</styleUrl>
+    <Point>
+      <coordinates>-6.750,37.570,260.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto Especial Bonificado</name>
+    <description>Puerto de Montaña</description>
+    <styleUrl>#verde</styleUrl>
+    <Point>
+      <coordinates>-6.890,37.280,45.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 1</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.840,37.918,680.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 2</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.852,37.922,715.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 3</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.861,37.924,742.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 4</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.872,37.927,790.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 5</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.878,37.929,810.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 6</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.780,37.890,775.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 7</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.715,37.860,755.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 8</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.650,37.840,745.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 9</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.580,37.870,735.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 10</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.565,37.850,770.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 11</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.585,37.810,820.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 12</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.600,37.790,860.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 13</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.605,37.720,890.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 14</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.635,37.650,600.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 15</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.695,37.610,320.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 16</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.740,37.575,270.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 17</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.790,37.450,180.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 18</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.865,37.310,85.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 19</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.898,37.240,25.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Punto Anónimo 20</name>
+    <description>Trayecto de etapa</description>
+    <styleUrl>#amarillo</styleUrl>
+    <Point>
+      <coordinates>-6.901,37.205,15.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Rábida. Palos de la Frontera</name>
+    <description>Meta de la etapa</description>
+    <styleUrl>#rojo</styleUrl>
+    <Point>
+      <coordinates>-6.903,37.195,12.0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Planimetría (Ruta completa)</name>
+    <styleUrl>#linea</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>-6.837,37.915,665.0 -6.840,37.918,680.0 -6.852,37.922,715.0 -6.861,37.924,742.0 -6.872,37.927,790.0 -6.878,37.929,810.0 -6.880,37.930,820.0 -6.780,37.890,775.0 -6.715,37.860,755.0 -6.650,37.840,745.0 -6.580,37.870,735.0 -6.560,37.890,730.0 -6.565,37.850,770.0 -6.585,37.810,820.0 -6.600,37.790,860.0 -6.605,37.720,890.0 -6.590,37.700,910.0 -6.635,37.650,600.0 -6.695,37.610,320.0 -6.740,37.575,270.0 -6.750,37.570,260.0 -6.790,37.450,180.0 -6.865,37.310,85.0 -6.890,37.280,45.0 -6.898,37.240,25.0 -6.901,37.205,15.0 -6.903,37.195,12.0</coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>
