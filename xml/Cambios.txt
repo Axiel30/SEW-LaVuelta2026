@@ -1,0 +1,22 @@
+Sin cambios en el encoding.
+Tipo latitud y longitud creados como floats.
+Tipo fecha modificado a date.
+Tipo de etapa creado como enumerado.
+Tipo numero de etapa modificado a integer.
+Creado tipo opciones unidades como enumerado.
+
+Latitud y longitud modificados a tipo latitud y longitud.
+Tiempo ganador modificado a time.
+Velocidad media modificado a float y el atributo a tipoOpcionUnidades.
+Desnivel acumulado modificado a integer.
+Tipo etapa modificado a su enumerado.
+Altitud modificado a float.
+Distancia salida modificado a float y el atributo a tipoOpcionUnidades 
+Clasificaciones modificados para usar min y max.
+Ciclista y equipo atributo posición a positiveinteger.
+tiempo etapa y general a time.
+diferencia a duration.
+enlace a anyUri
+galerías usando min max
+
+
