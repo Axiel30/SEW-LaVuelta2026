@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Axiel Almeda Tomas" />
+    <meta name="description" content="Documento juegos del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1>LaVuelta2026</h1>
+        <nav>
+            <a href="index.html" title="Página principal de inicio">Inicio</a>
+            <a href="ciclista.html" title="Información sobre los ciclistas">Ciclista</a>
+            <a href="equipo.html" title="Información de los equipos participantes">Equipo</a>
+            <a href="etapa.html" title="Detalles del recorrido y etapas">Etapa</a>
+            <a href="meteorologia.html" title="Previsión meteorológica de la carrera">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones generales y por etapas">Clasificaciones</a>
+            <a href="juegos.html" title="Sección de juegos interactivos">Juegos</a>
+            <a href="ayuda.html" title="Página de ayuda y soporte">Ayuda</a>
+        </nav>
+    </header>
+    
+    <h2>Juegos</h2>
+    
+    <h3>¿Conoces la etapa?</h3>
+    <p>Este juego consta de 10 preguntas diseñadas para poner a prueba tus conocimientos sobre la información de la etapa.</p>
+
+    <form>
+        <fieldset>
+            <legend>Etapa 16</legend>
+            
+            <!-- Tarea 8.3: Número de la etapa -->
+            <p>
+                <label for="numeroEtapa">¿Cuál es el número de la etapa sobre la que has desarrollado el documento XML?</label>
+                <input type="number" id="numeroEtapa" min="1" max="21" />
+            </p>
+
+            <!-- Tarea 8.4: Fecha de la etapa -->
+            <p>
+                <label for="fechaEtapa">Fecha de celebración de la etapa:</label>
+                <input type="date" id="fechaEtapa" min="2026-08-01" max="2026-09-30" />
+            </p>
+
+            <!-- Tarea 8.5: Lugar de salida -->
+            <p>
+                <label for="lugarSalida">Selecciona la ciudad o lugar de salida de la etapa:</label>
+                <select id="lugarSalida">
+                    <option value="">Seleccione una opción</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="lisboa">Lisboa</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="malaga">Málaga</option>
+                    <option value="jerez">Jerez de la Frontera</option>
+                    <option value="burgos">Burgos</option>
+                    <option value="pamplona">Pamplona</option>
+                    <option value="vitoria">Vitoria-Gasteiz</option>
+                    <option value="bilbao">Bilbao</option>
+                    <option value="santander">Santander</option>
+                    <option value="gijon">Gijón</option>
+                    <option value="oviedo">Oviedo</option>
+                    <option value="aviles">Avilés</option>
+                    <option value="ourense">Ourense</option>
+                    <option value="vigo">Vigo</option>
+                    <option value="zaragoza">Zaragoza</option>
+                    <option value="valencia">Valencia</option>
+                    <option value="alicante">Alicante</option>
+                    <option value="murcia">Murcia</option>
+                    <option value="granada">Granada</option>
+                </select>
+            </p>
+
+            <!-- Tarea 8.5: Lugar de llegada -->
+            <p>
+                <label for="lugarLlegada">Selecciona la ciudad o lugar de llegada de la etapa:</label>
+                <select id="lugarLlegada">
+                    <option value="">Seleccione una opción</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="santiago">Santiago de Compostela</option>
+                    <option value="covadonga">Lagos de Covadonga</option>
+                    <option value="angliru">Alto de l'Angliru</option>
+                    <option value="villuercas">Pico Villuercas</option>
+                    <option value="cuitu_negru">Cuitu Negru</option>
+                    <option value="bola_mundo">Bola del Mundo</option>
+                    <option value="sierra_nevada">Sierra Nevada</option>
+                    <option value="tourmalet">Col du Tourmalet</option>
+                    <option value="andorra">Andorra (Arinsal)</option>
+                    <option value="formigal">Formigal</option>
+                    <option value="camperona">La Camperona</option>
+                    <option value="machucos">Los Machucos</option>
+                    <option value="valdezcaray">Valdezcaray</option>
+                    <option value="javalambre">Observatorio Astrofísico de Javalambre</option>
+                    <option value="ezaro">Mirador de Ézaro</option>
+                    <option value="bilbao">Bilbao</option>
+                    <option value="santander">Santander</option>
+                    <option value="zaragoza">Zaragoza</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="toledo">Toledo</option>
+                </select>
+            </p>
+
+            <!-- Tarea 8.6: Tipo de etapa -->
+            <p>
+                Selecciona el tipo de etapa:<br />
+                <input type="radio" id="tipoLlana" name="tipoEtapa" value="Llana" />
+                <label for="tipoLlana">Llana</label><br />
+                <input type="radio" id="tipoMediaMontana" name="tipoEtapa" value="Media montaña" />
+                <label for="tipoMediaMontana">Media montaña</label><br />
+                <input type="radio" id="tipoMontana" name="tipoEtapa" value="Montaña" />
+                <label for="tipoMontana">Montaña</label><br />
+                <input type="radio" id="tipoCRI" name="tipoEtapa" value="Contrarreloj individual" />
+                <label for="tipoCRI">Contrarreloj individual</label><br />
+                <input type="radio" id="tipoCRE" name="tipoEtapa" value="Contrarreloj por equipos" />
+                <label for="tipoCRE">Contrarreloj por equipos</label>
+            </p>
+
+            <!-- Tarea 8.7: Hitos presentes en la etapa -->
+            <p>
+                Indica los hitos presentes en la etapa:<br />
+                <input type="checkbox" id="hitoMontana" name="hitos" value="Puerto de montaña" />
+                <label for="hitoMontana">Puerto de montaña</label><br />
+                <input type="checkbox" id="hitoEspecial" name="hitos" value="Puerto categoría especial" />
+                <label for="hitoEspecial">Puerto categoría especial</label><br />
+                <input type="checkbox" id="hitoSprintInt" name="hitos" value="Sprint intermedio" />
+                <label for="hitoSprintInt">Sprint intermedio</label><br />
+                <input type="checkbox" id="hitoSprintBon" name="hitos" value="Sprint bonificado" />
+                <label for="hitoSprintBon">Sprint bonificado</label><br />
+                <input type="checkbox" id="hitoSin" name="hitos" value="Sin hitos" />
+                <label for="hitoSin">Sin hitos</label>
+            </p>
+
+            <!-- Tarea 8.8: Valoración de la dureza -->
+            <p>
+                <label for="dificultadEtapa">Valora la dureza de la etapa (1 al 10):</label>
+                <input type="range" id="dificultadEtapa" name="dificultad" min="1" max="10" />
+            </p>
+
+            <!-- Tarea 8.9: Longitud de la etapa -->
+            <p>
+                <label for="longitudEtapa">Introduce la longitud de la etapa (en kilómetros):</label>
+                <input type="number" id="longitudEtapa" name="longitud" min="0" step="any" />
+            </p>
+
+        </fieldset>
+    </form>
+    
+   <!-- contenido de juegos.html  -->
+    
+</body>
+</html>
