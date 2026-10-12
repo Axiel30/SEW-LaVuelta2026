@@ -125,7 +125,7 @@ class GeneradorAltimetria:
         altitud_max = max(p[1] for p in self.puntos)
 
         ancho_dibujo = self.ancho_svg - 2 * self.margen_x
-        alto_dibujo = self.alto_svg - 2 * self.margen_y  # <--- LÍNEA CORREGIDA
+        alto_dibujo = self.alto_svg - 2 * self.margen_y
         y_suelo = self.alto_svg - self.margen_y
 
         # Dibujar la línea de base (distancia 0 a Max)

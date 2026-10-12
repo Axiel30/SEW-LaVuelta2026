@@ -50,7 +50,9 @@ class GeneradorKML:
     def _crear_placemark(self, nombre, descripcion, coordenadas, estilo):
         """Crea el fragmento XML para un marcador (Placemark) en el KML."""
         self.kml_contenido.append('  <Placemark>')
-        self.kml_contenido.append(f'    <name>{nombre}</name>')
+        # Solo creamos la etiqueta name si hay un nombre asignado
+        if nombre:
+            self.kml_contenido.append(f'    <name>{nombre}</name>')
         self.kml_contenido.append(f'    <description>{descripcion}</description>')
         self.kml_contenido.append(f'    <styleUrl>{estilo}</styleUrl>')
         self.kml_contenido.append('    <Point>')
@@ -92,7 +94,8 @@ class GeneradorKML:
             dist_str = punto.find('uo:distancia_salida', self.espacio_nombres).text
             distancia = float(dist_str) if dist_str else 0.0
             
-            self._crear_placemark(f"Punto Anónimo {i+1}", "Trayecto de etapa", coords, "#amarillo")
+            # Pasamos una cadena vacía "" para que no genere la etiqueta <name>
+            self._crear_placemark("", "Trayecto de etapa", coords, "#amarillo")
             puntos_ruta.append((distancia, coords))
 
         # 4. META (Color: Rojo)

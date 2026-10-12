@@ -2,28 +2,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1200" height="500">
   <rect width="100%" height="100%" fill="#ffffff"/>
   <!-- Perfil altimetrico de la etapa -->
-  <polyline points="100,400 100.0,180.76923076923077 123.19160684704583,175.82417582417582 164.60519050248482,164.28571428571428 201.04914411927115,155.3846153846154 254.058531198233,139.56043956043953 284.42849254555495,132.967032967033 293.26339039204856,129.6703296703297 330.8117062396466,144.5054945054945 367.8078409718388,151.09890109890108 410.3257868580895,154.3956043956044 458.3655438983987,157.69230769230768 486.5267807840972,159.34065934065933 526.8360022087245,146.15384615384616 586.4715626725566,129.6703296703297 627.8851463279956,116.4835164835165 693.0425179458863,106.5934065934066 707.3992269464385,100.0 752.6780784097185,202.1978021978022 815.0745444505799,294.5054945054945 865.8752070679183,310.989010989011 873.0535615681944,314.2857142857143 913.3627829928217,340.65934065934067 965.8199889563778,371.97802197802196 983.489784649365,385.16483516483515 1029.8729983434569,391.75824175824175 1082.3302043070128,395.05494505494505 1100.0,396.04395604395603 1100,400" 
+  <polyline points="100,400 100.0,152.7027027027027 138.65267807840974,185.13513513513513 188.3489784649365,124.32432432432432 222.5842076200994,100.0 254.61071231363889,116.2162162162162 284.9806736609608,132.43243243243245 320.87244616234125,177.02702702702703 359.525124240751,270.27027027027026 392.65599116510214,177.02702702702703 420.2650469353948,245.94594594594597 450.63500828271674,233.78378378378378 475.48315847598013,278.3783783783784 508.61402540033134,318.9189189189189 530.7012700165654,258.1081081081081 569.3539480949752,351.35135135135135 608.0066261733848,270.27027027027026 652.1811154058531,355.4054054054054 679.7901711761458,367.56756756756755 732.2473771397018,371.6216216216216 762.6173384870237,379.72972972972974 806.791827719492,393.9189189189189 884.0971838763114,395.94594594594594 944.8371065709554,393.9189189189189 1011.0988404196577,385.81081081081084 1066.316951960243,395.94594594594594 1082.8823854224186,391.8918918918919 1100.0,395.13513513513516 1100,400" 
             style="fill:#e04631; stroke:#a11c0f; stroke-width:3" />
   <line x1="100" y1="400" x2="1100" y2="400" style="stroke:black; stroke-width:2" />
-  <line x1="100.0" y1="400" x2="100.0" y2="180.76923076923077" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <line x1="100.0" y1="400" x2="100.0" y2="152.7027027027027" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
   <text x="100.0" y="415" transform="rotate(90, 100.0, 415)" font-family="Arial" font-size="14" fill="#333333">Cortegana / 0.0 km</text>
-  <text x="100.0" y="170.76923076923077" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">665.0 m</text>
-  <line x1="293.26339039204856" y1="400" x2="293.26339039204856" y2="129.6703296703297" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
-  <text x="293.26339039204856" y="415" transform="rotate(90, 293.26339039204856, 415)" font-family="Arial" font-size="14" fill="#333333">Puerto 3ª categoría / 35.0 km</text>
-  <text x="293.26339039204856" y="119.67032967032969" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">820.0 m</text>
-  <line x1="486.5267807840972" y1="400" x2="486.5267807840972" y2="159.34065934065933" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
-  <text x="486.5267807840972" y="415" transform="rotate(90, 486.5267807840972, 415)" font-family="Arial" font-size="14" fill="#333333">Sprint intermedio / 70.0 km</text>
-  <text x="486.5267807840972" y="149.34065934065933" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">730.0 m</text>
-  <line x1="707.3992269464385" y1="400" x2="707.3992269464385" y2="100.0" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
-  <text x="707.3992269464385" y="415" transform="rotate(90, 707.3992269464385, 415)" font-family="Arial" font-size="14" fill="#333333">Puerto 2ª categoría / 110.0 km</text>
-  <text x="707.3992269464385" y="90.0" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">910.0 m</text>
-  <line x1="873.0535615681944" y1="400" x2="873.0535615681944" y2="314.2857142857143" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
-  <text x="873.0535615681944" y="415" transform="rotate(90, 873.0535615681944, 415)" font-family="Arial" font-size="14" fill="#333333">Sprint bonificado / 140.0 km</text>
-  <text x="873.0535615681944" y="304.2857142857143" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">260.0 m</text>
-  <line x1="983.489784649365" y1="400" x2="983.489784649365" y2="385.16483516483515" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
-  <text x="983.489784649365" y="415" transform="rotate(90, 983.489784649365, 415)" font-family="Arial" font-size="14" fill="#333333">Puerto Especial Bonificado / 160.0 km</text>
-  <text x="983.489784649365" y="375.16483516483515" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">45.0 m</text>
-  <line x1="1100.0" y1="400" x2="1100.0" y2="396.04395604395603" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <text x="100.0" y="142.7027027027027" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">610.0 m</text>
+  <line x1="222.5842076200994" y1="400" x2="222.5842076200994" y2="100.0" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <text x="222.5842076200994" y="415" transform="rotate(90, 222.5842076200994, 415)" font-family="Arial" font-size="14" fill="#333333">Puerto de Fuenteheridos (2ª categoría) / 22.2 km</text>
+  <text x="222.5842076200994" y="90.0" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">740.0 m</text>
+  <line x1="284.9806736609608" y1="400" x2="284.9806736609608" y2="132.43243243243245" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <text x="284.9806736609608" y="415" transform="rotate(90, 284.9806736609608, 415)" font-family="Arial" font-size="14" fill="#333333">Alto de Aracena (3ª categoría) / 33.5 km</text>
+  <text x="284.9806736609608" y="122.43243243243245" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">660.0 m</text>
+  <line x1="450.63500828271674" y1="400" x2="450.63500828271674" y2="233.78378378378378" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <text x="450.63500828271674" y="415" transform="rotate(90, 450.63500828271674, 415)" font-family="Arial" font-size="14" fill="#333333">Alto de Minas de Riotinto (4ª categoría) / 63.5 km</text>
+  <text x="450.63500828271674" y="223.78378378378378" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">410.0 m</text>
+  <line x1="732.2473771397018" y1="400" x2="732.2473771397018" y2="371.6216216216216" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
+  <text x="732.2473771397018" y="415" transform="rotate(90, 732.2473771397018, 415)" font-family="Arial" font-size="14" fill="#333333">Sprint intermedio bonificado (Villarrasa) / 114.5 km</text>
+  <text x="732.2473771397018" y="361.6216216216216" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">70.0 m</text>
+  <line x1="1100.0" y1="400" x2="1100.0" y2="395.13513513513516" style="stroke:#555555; stroke-width:1; stroke-dasharray:4" />
   <text x="1100.0" y="415" transform="rotate(90, 1100.0, 415)" font-family="Arial" font-size="14" fill="#333333">La Rábida. Palos de la Frontera / 181.1 km</text>
-  <text x="1100.0" y="386.04395604395603" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">12.0 m</text>
+  <text x="1100.0" y="385.13513513513516" font-family="Arial" font-size="12" font-weight="bold" fill="black" text-anchor="middle">12.0 m</text>
 </svg>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <trabajo_etapa_vuelta xmlns="http://www.uniovi.es"
-                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
-    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+
     <!-- Identificación general de la etapa -->
     <numero_etapa>16</numero_etapa>
     <nombre_etapa>Cortegana-La Rábida.Palos de la Frontera</nombre_etapa>
     <fecha_etapa>2026-09-08</fecha_etapa>
-    
+
     <!-- Detalles de la etapa -->
     <datos_etapa>
         <longitud unidades="km">181.1</longitud>
@@ -16,7 +16,7 @@
         <desnivel_acumulado unidades="m">2256</desnivel_acumulado>
         <tipo_etapa>Ondulada</tipo_etapa>
     </datos_etapa>
-    
+
     <!-- Trayecto y Localizaciones Geográficas (Puntos de Salida y Meta) -->
     <recorrido>
         <lugar_salida>
@@ -24,7 +24,7 @@
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.837</longitud>
                 <latitud unidades="grados decimales">37.915</latitud>
-                <altitud unidades="metros">665.0</altitud>
+                <altitud unidades="metros">610.0</altitud>
             </georreferenciacion>
         </lugar_salida>
         <lugar_meta>
@@ -36,238 +36,222 @@
             </georreferenciacion>
         </lugar_meta>
     </recorrido>
-    
+
     <!-- Hitos importantes de la etapa (Puertos, Sprints) -->
     <hitos_etapa>
-        <hito tipo="Puerto 3ª categoría">
+        <hito tipo="Puerto de Fuenteheridos (2ª categoría)">
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.880</longitud>
-                <latitud unidades="grados decimales">37.930</latitud>
-                <altitud unidades="metros">820.0</altitud>
+                <longitud unidades="grados decimales">-6.700</longitud>
+                <latitud unidades="grados decimales">37.900</latitud>
+                <altitud unidades="metros">740.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">35.0</distancia_salida>
+            <distancia_salida unidades="km">22.2</distancia_salida>
         </hito>
-        
-        <hito tipo="Sprint intermedio">
+        <hito tipo="Alto de Aracena (3ª categoría)">
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.560</longitud>
                 <latitud unidades="grados decimales">37.890</latitud>
-                <altitud unidades="metros">730.0</altitud>
+                <altitud unidades="metros">660.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">70.0</distancia_salida>
+            <distancia_salida unidades="km">33.5</distancia_salida>
         </hito>
-        
-        <hito tipo="Puerto 2ª categoría">
+        <hito tipo="Alto de Minas de Riotinto (4ª categoría)">
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.590</longitud>
-                <latitud unidades="grados decimales">37.700</latitud>
-                <altitud unidades="metros">910.0</altitud>
+                <latitud unidades="grados decimales">37.690</latitud>
+                <altitud unidades="metros">410.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">110.0</distancia_salida>
+            <distancia_salida unidades="km">63.5</distancia_salida>
         </hito>
-        
-        <hito tipo="Sprint bonificado">
+        <hito tipo="Sprint intermedio bonificado (Villarrasa)">
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.750</longitud>
-                <latitud unidades="grados decimales">37.570</latitud>
-                <altitud unidades="metros">260.0</altitud>
+                <longitud unidades="grados decimales">-6.879</longitud>
+                <latitud unidades="grados decimales">37.458</latitud>
+                <altitud unidades="metros">70.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">140.0</distancia_salida>
-        </hito>
-        
-        <hito tipo="Puerto Especial Bonificado">
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.890</longitud>
-                <latitud unidades="grados decimales">37.280</latitud>
-                <altitud unidades="metros">45.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">160.0</distancia_salida>
+            <distancia_salida unidades="km">114.5</distancia_salida>
         </hito>
     </hitos_etapa>
-    
-    <!-- Puntos anónimos para mejorar la precisión del trayecto (Total: 20 con distancias aleatorias) -->
+
+    <!-- Puntos anónimos para mejorar la precisión del trayecto -->
     <puntos_trayecto_anonimos>
+        <!-- Tramo hasta Fuenteheridos -->
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.840</longitud>
-                <latitud unidades="grados decimales">37.918</latitud>
+                <longitud unidades="grados decimales">-6.800</longitud>
+                <latitud unidades="grados decimales">37.910</latitud>
+                <altitud unidades="metros">530.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">7.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.750</longitud>
+                <latitud unidades="grados decimales">37.905</latitud>
                 <altitud unidades="metros">680.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">4.2</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.852</longitud>
-                <latitud unidades="grados decimales">37.922</latitud>
-                <altitud unidades="metros">715.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">11.7</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.861</longitud>
-                <latitud unidades="grados decimales">37.924</latitud>
-                <altitud unidades="metros">742.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">18.3</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.872</longitud>
-                <latitud unidades="grados decimales">37.927</latitud>
-                <altitud unidades="metros">790.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">27.9</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.878</longitud>
-                <latitud unidades="grados decimales">37.929</latitud>
-                <altitud unidades="metros">810.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">33.4</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.780</longitud>
-                <latitud unidades="grados decimales">37.890</latitud>
-                <altitud unidades="metros">775.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">41.8</distancia_salida>
+            <distancia_salida unidades="km">16.0</distancia_salida>
         </punto_anonimo>
 
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.715</longitud>
-                <latitud unidades="grados decimales">37.860</latitud>
-                <altitud unidades="metros">755.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">48.5</distancia_salida>
-        </punto_anonimo>
-
+        <!-- Tramo Aracena y Minas de Riotinto -->
         <punto_anonimo>
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.650</longitud>
-                <latitud unidades="grados decimales">37.840</latitud>
-                <altitud unidades="metros">745.0</altitud>
+                <latitud unidades="grados decimales">37.895</latitud>
+                <altitud unidades="metros">700.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">56.2</distancia_salida>
+            <distancia_salida unidades="km">28.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.500</longitud>
+                <latitud unidades="grados decimales">37.850</latitud>
+                <altitud unidades="metros">550.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">40.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.480</longitud>
+                <latitud unidades="grados decimales">37.820</latitud>
+                <altitud unidades="metros">320.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">47.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.520</longitud>
+                <latitud unidades="grados decimales">37.780</latitud>
+                <altitud unidades="metros">550.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">53.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.550</longitud>
+                <latitud unidades="grados decimales">37.750</latitud>
+                <altitud unidades="metros">380.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">58.0</distancia_salida>
         </punto_anonimo>
 
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.580</longitud>
-                <latitud unidades="grados decimales">37.870</latitud>
-                <altitud unidades="metros">735.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">64.9</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.565</longitud>
-                <latitud unidades="grados decimales">37.850</latitud>
-                <altitud unidades="metros">770.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">77.3</distancia_salida>
-        </punto_anonimo>
-        
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.585</longitud>
-                <latitud unidades="grados decimales">37.810</latitud>
-                <altitud unidades="metros">820.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">88.1</distancia_salida>
-        </punto_anonimo>
-        
+        <!-- Caídas abruptas hacia La Palma del Condado -->
         <punto_anonimo>
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.600</longitud>
-                <latitud unidades="grados decimales">37.790</latitud>
-                <altitud unidades="metros">860.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">95.6</distancia_salida>
-        </punto_anonimo>
-
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.605</longitud>
-                <latitud unidades="grados decimales">37.720</latitud>
-                <altitud unidades="metros">890.0</altitud>
-            </georreferenciacion>
-            <distancia_salida unidades="km">107.4</distancia_salida>
-        </punto_anonimo>
-
-        <punto_anonimo>
-            <georreferenciacion>
-                <longitud unidades="grados decimales">-6.635</longitud>
                 <latitud unidades="grados decimales">37.650</latitud>
-                <altitud unidades="metros">600.0</altitud>
+                <altitud unidades="metros">300.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">118.2</distancia_salida>
+            <distancia_salida unidades="km">68.0</distancia_salida>
         </punto_anonimo>
-
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.695</longitud>
-                <latitud unidades="grados decimales">37.610</latitud>
+                <longitud unidades="grados decimales">-6.610</longitud>
+                <latitud unidades="grados decimales">37.600</latitud>
+                <altitud unidades="metros">200.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">74.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.620</longitud>
+                <latitud unidades="grados decimales">37.550</latitud>
+                <altitud unidades="metros">350.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">78.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.600</longitud>
+                <latitud unidades="grados decimales">37.500</latitud>
+                <altitud unidades="metros">120.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">85.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.580</longitud>
+                <latitud unidades="grados decimales">37.450</latitud>
                 <altitud unidades="metros">320.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">129.5</distancia_salida>
+            <distancia_salida unidades="km">92.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.560</longitud>
+                <latitud unidades="grados decimales">37.420</latitud>
+                <altitud unidades="metros">110.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">100.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.555</longitud>
+                <latitud unidades="grados decimales">37.400</latitud>
+                <altitud unidades="metros">80.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">105.0</distancia_salida>
         </punto_anonimo>
 
+        <!-- Tramos llanos y repechos finales hacia la meta -->
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.740</longitud>
-                <latitud unidades="grados decimales">37.575</latitud>
-                <altitud unidades="metros">270.0</altitud>
+                <longitud unidades="grados decimales">-6.850</longitud>
+                <latitud unidades="grados decimales">37.400</latitud>
+                <altitud unidades="metros">50.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">138.7</distancia_salida>
+            <distancia_salida unidades="km">120.0</distancia_salida>
         </punto_anonimo>
-
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.790</longitud>
-                <latitud unidades="grados decimales">37.450</latitud>
-                <altitud unidades="metros">180.0</altitud>
+                <longitud unidades="grados decimales">-6.800</longitud>
+                <latitud unidades="grados decimales">37.350</latitud>
+                <altitud unidades="metros">15.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">147.3</distancia_salida>
+            <distancia_salida unidades="km">128.0</distancia_salida>
         </punto_anonimo>
-        
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.865</longitud>
-                <latitud unidades="grados decimales">37.310</latitud>
-                <altitud unidades="metros">85.0</altitud>
+                <longitud unidades="grados decimales">-6.780</longitud>
+                <latitud unidades="grados decimales">37.300</latitud>
+                <altitud unidades="metros">10.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">156.8</distancia_salida>
+            <distancia_salida unidades="km">142.0</distancia_salida>
         </punto_anonimo>
-
         <punto_anonimo>
             <georreferenciacion>
-                <longitud unidades="grados decimales">-6.898</longitud>
-                <latitud unidades="grados decimales">37.240</latitud>
-                <altitud unidades="metros">25.0</altitud>
+                <longitud unidades="grados decimales">-6.860</longitud>
+                <latitud unidades="grados decimales">37.250</latitud>
+                <altitud unidades="metros">15.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">168.4</distancia_salida>
+            <distancia_salida unidades="km">153.0</distancia_salida>
         </punto_anonimo>
-        
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.900</longitud>
+                <latitud unidades="grados decimales">37.210</latitud>
+                <altitud unidades="metros">35.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">165.0</distancia_salida>
+        </punto_anonimo>
         <punto_anonimo>
             <georreferenciacion>
                 <longitud unidades="grados decimales">-6.901</longitud>
                 <latitud unidades="grados decimales">37.205</latitud>
-                <altitud unidades="metros">15.0</altitud>
+                <altitud unidades="metros">10.0</altitud>
             </georreferenciacion>
-            <distancia_salida unidades="km">177.9</distancia_salida>
+            <distancia_salida unidades="km">175.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <georreferenciacion>
+                <longitud unidades="grados decimales">-6.902</longitud>
+                <latitud unidades="grados decimales">37.200</latitud>
+                <altitud unidades="metros">20.0</altitud>
+            </georreferenciacion>
+            <distancia_salida unidades="km">178.0</distancia_salida>
         </punto_anonimo>
     </puntos_trayecto_anonimos>
-    
+
     <!-- Clasificaciones de la carrera después de la etapa -->
     <clasificaciones_carrera>
         <!-- Los tres primeros clasificados de la etapa -->
@@ -290,46 +274,46 @@
                 <diferencia>PT0H0M0S</diferencia>
             </ciclista>
         </clasificacion_individual_etapa>
-        
+
         <!-- Los tres primeros clasificados de la clasificación general -->
         <clasificacion_general>
             <ciclista posicion="1">
                 <nombre>Enric Mas</nombre>
                 <equipo>MOVISTAR TEAM</equipo>
-                <tiempo_general>PT56H2M29S</tiempo_general> <!-- Antes: 56:02:29 -->
+                <tiempo_general>PT56H2M29S</tiempo_general>
             </ciclista>
             <ciclista posicion="2">
                 <nombre>Félix Gall</nombre>
                 <equipo>DECATHLON CMA CGM TEAM</equipo>
-                <tiempo_general>PT56H4M35S</tiempo_general> <!-- Antes: 56:04:35 -->
+                <tiempo_general>PT56H4M35S</tiempo_general>
                 <diferencia>PT2M6S</diferencia>
             </ciclista>
             <ciclista posicion="3">
                 <nombre>Primoz Roglic</nombre>
                 <equipo>RED BULL - BORA - HANSGROHE</equipo>
-                <tiempo_general>PT56H4M39S</tiempo_general> <!-- Antes: 56:04:39 -->
+                <tiempo_general>PT56H4M39S</tiempo_general>
                 <diferencia>PT2M10S</diferencia>
             </ciclista>
         </clasificacion_general>
-        
+
         <clasificacion_equipos>
             <equipo posicion="1">
                 <nombre>DECATHLON CMA CGM TEAM</nombre>
-                <tiempo_equipos>PT168H27M56S</tiempo_equipos> <!-- Antes: 168:27:56 -->
+                <tiempo_equipos>PT168H27M56S</tiempo_equipos>
             </equipo>
             <equipo posicion="2">
                 <nombre>XDS ASTANA TEAM</nombre>
-                <tiempo_equipos>PT169H25M28S</tiempo_equipos> <!-- Antes: 169:25:28 -->
+                <tiempo_equipos>PT169H25M28S</tiempo_equipos>
                 <diferencia>PT57M32S</diferencia>
             </equipo>
             <equipo posicion="3">
                 <nombre>BAHRAIN VICTORIOUS</nombre>
-                <tiempo_equipos>PT169H39M11S</tiempo_equipos> <!-- Antes: 169:39:11 -->
+                <tiempo_equipos>PT169H39M11S</tiempo_equipos>
                 <diferencia>PT1H11M15S</diferencia>
             </equipo>
         </clasificacion_equipos>
     </clasificaciones_carrera>
-    
+
     <!-- Referencias y bibliografía -->
     <referencias_bibliograficas>
         <referencia>
@@ -348,7 +332,7 @@
             <enlace>https://www.ejemplo.com/etapa16-vuelta-resumen/</enlace>
         </referencia>
     </referencias_bibliograficas>
-    
+
     <!-- Galería de fotografías de la etapa -->
     <galeria_fotografias>
         <fotografia>../multimedia/Salida.jpg</fotografia>
@@ -356,12 +340,12 @@
         <fotografia>../multimedia/Meta.jpg</fotografia>
         <fotografia>../multimedia/Podio.jpg</fotografia>
     </galeria_fotografias>
-    
+
     <!-- Galería de vídeos de la etapa -->
     <galeria_videos>
         <video>VideoResumen.mp4</video>
     </galeria_videos>
-    
+
     <!-- Galería de sonidos (podcasts) de la etapa -->
     <galeria_sonidos>
         <sonido>Entrevista_Ganador.mp3</sonido>
