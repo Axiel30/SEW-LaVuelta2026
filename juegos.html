@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
+
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
@@ -8,8 +9,8 @@
 
     <meta name="author" content="Axiel Almeda Tomas" />
     <meta name="description" content="Documento juegos del proyecto LaVuelta2026" />
-   
-    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
@@ -30,19 +31,21 @@
             <a href="ayuda.html" title="Página de ayuda y soporte">Ayuda</a>
         </nav>
     </header>
-    
+
     <h2>Juegos</h2>
-    
+
     <h3>¿Conoces la etapa?</h3>
-    <p>Este juego consta de 10 preguntas diseñadas para poner a prueba tus conocimientos sobre la información de la etapa.</p>
+    <p>Este juego consta de 10 preguntas diseñadas para poner a prueba tus conocimientos sobre la información de la
+        etapa.</p>
 
     <form>
         <fieldset>
             <legend>Etapa 16</legend>
-            
+
             <!-- Tarea 8.3: Número de la etapa -->
             <p>
-                <label for="numeroEtapa">¿Cuál es el número de la etapa sobre la que has desarrollado el documento XML?</label>
+                <label for="numeroEtapa">¿Cuál es el número de la etapa sobre la que has desarrollado el documento
+                    XML?</label>
                 <input type="number" id="numeroEtapa" min="1" max="21" />
             </p>
 
@@ -111,31 +114,47 @@
             </p>
 
             <!-- Tarea 8.6: Tipo de etapa -->
+            <p>Selecciona el tipo de etapa:</p>
             <p>
-                Selecciona el tipo de etapa:<br />
                 <input type="radio" id="tipoLlana" name="tipoEtapa" value="Llana" />
-                <label for="tipoLlana">Llana</label><br />
+                <label for="tipoLlana">Llana</label>
+            </p>
+            <p>
                 <input type="radio" id="tipoMediaMontana" name="tipoEtapa" value="Media montaña" />
-                <label for="tipoMediaMontana">Media montaña</label><br />
+                <label for="tipoMediaMontana">Media montaña</label>
+            </p>
+            <p>
                 <input type="radio" id="tipoMontana" name="tipoEtapa" value="Montaña" />
-                <label for="tipoMontana">Montaña</label><br />
+                <label for="tipoMontana">Montaña</label>
+            </p>
+            <p>
                 <input type="radio" id="tipoCRI" name="tipoEtapa" value="Contrarreloj individual" />
-                <label for="tipoCRI">Contrarreloj individual</label><br />
+                <label for="tipoCRI">Contrarreloj individual</label>
+            </p>
+            <p>
                 <input type="radio" id="tipoCRE" name="tipoEtapa" value="Contrarreloj por equipos" />
                 <label for="tipoCRE">Contrarreloj por equipos</label>
             </p>
 
             <!-- Tarea 8.7: Hitos presentes en la etapa -->
+            <p>Indica los hitos presentes en la etapa:</p>
             <p>
-                Indica los hitos presentes en la etapa:<br />
                 <input type="checkbox" id="hitoMontana" name="hitos" value="Puerto de montaña" />
-                <label for="hitoMontana">Puerto de montaña</label><br />
+                <label for="hitoMontana">Puerto de montaña</label>
+            </p>
+            <p>
                 <input type="checkbox" id="hitoEspecial" name="hitos" value="Puerto categoría especial" />
-                <label for="hitoEspecial">Puerto categoría especial</label><br />
+                <label for="hitoEspecial">Puerto categoría especial</label>
+            </p>
+            <p>
                 <input type="checkbox" id="hitoSprintInt" name="hitos" value="Sprint intermedio" />
-                <label for="hitoSprintInt">Sprint intermedio</label><br />
+                <label for="hitoSprintInt">Sprint intermedio</label>
+            </p>
+            <p>
                 <input type="checkbox" id="hitoSprintBon" name="hitos" value="Sprint bonificado" />
-                <label for="hitoSprintBon">Sprint bonificado</label><br />
+                <label for="hitoSprintBon">Sprint bonificado</label>
+            </p>
+            <p>
                 <input type="checkbox" id="hitoSin" name="hitos" value="Sin hitos" />
                 <label for="hitoSin">Sin hitos</label>
             </p>
@@ -143,19 +162,40 @@
             <!-- Tarea 8.8: Valoración de la dureza -->
             <p>
                 <label for="dificultadEtapa">Valora la dureza de la etapa (1 al 10):</label>
-                <input type="range" id="dificultadEtapa" name="dificultad" min="1" max="10" />
+                <input type="range" id="dificultadEtapa" min="1" max="10" />
             </p>
 
             <!-- Tarea 8.9: Longitud de la etapa -->
             <p>
                 <label for="longitudEtapa">Introduce la longitud de la etapa (en kilómetros):</label>
-                <input type="number" id="longitudEtapa" name="longitud" min="0" step="any" />
+                <input type="number" id="longitudEtapa" min="0" step="any" />
+            </p>
+
+            <!-- Tarea 8.10: Desnivel de la etapa -->
+            <p>
+                <label for="desnivelEtapa">Introduce el desnivel acumulado de la etapa (en metros):</label>
+                <input type="number" id="desnivelEtapa" min="0" step="1" />
+            </p>
+
+            <!-- Tarea 8.11: Pregunta de respuesta libre (Descripción de la etapa) -->
+            <p>
+                <label for="descripcionEtapa">Describe brevemente la etapa:</label>
+                <textarea id="descripcionEtapa" rows="4" cols="50"></textarea>
+            </p>
+
+            <!-- Tarea 8.12: Pregunta de respuesta corta (Nombre del participante) -->
+            <p>
+                <label for="nombreParticipante">Introduce el nombre del participante:</label>
+                <input type="text" id="nombreParticipante" />
+            </p>
+
+            <!-- Tarea 8.13: Botón de envío -->
+            <p>
+                <button type="submit">Enviar respuestas</button>
             </p>
 
         </fieldset>
     </form>
-    
-   <!-- contenido de juegos.html  -->
-    
 </body>
+
 </html>
