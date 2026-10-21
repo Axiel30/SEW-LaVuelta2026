@@ -4,10 +4,56 @@
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
+/*  Nombre y Apellidos: Axiel Almeda Tomas*/
+/*  Correo electrónico (uniovi): uo306090@uniovi.es*/
 /*  Grupo de laboratorio:                */
 /* ***************************************/
 
+/* Gama cromática
+Color principal (#684B41)
+ - Contraste de 7.86:1 con color blanco
+ - Contraste de 7.04:1 con color secundario
+Color secundario (#F9F0F5)
+ - Contraste de 12.16:1 con color negro
+ - Contraste de 7.04:1 con color principal
+Color Blanco (#FFFFFF)
+Color Negro (#000000)
+*/
 
+/* Especificidad: 010 */
+:root {
+    --color-principal: #684B41;
+    --color-secundario: #F9F0F5;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+}
+
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 002 */
+header a, footer a {
+    color: var(--color-secundario);
+}
+
+/* Especificidad: 001 */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-principal);
+}
 
