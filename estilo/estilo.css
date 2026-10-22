@@ -10,7 +10,7 @@
 /* ***************************************/
 
 /* Gama cromática
-Color principal (#684B41)
+Color principal (#684F41)
  - Contraste de 7.86:1 con color blanco
  - Contraste de 7.04:1 con color secundario
 Color secundario (#F9F0F5)
@@ -22,7 +22,7 @@ Color Negro (#000000)
 
 /* Especificidad: 010 */
 :root {
-    --color-principal: #684B41;
+    --color-principal: #684F41;
     --color-secundario: #F9F0F5;
     --color-blanco: #FFFFFF;
     --color-negro: #000000;
@@ -35,25 +35,53 @@ body {
     color: var(--color-negro);
 }
 
-/* Especificidad: 001 */
-header {
+/* Especificidad: 001,001 */
+header, footer {
     background-color: var(--color-principal);
-    color: var(--color-blanco);
-}
-
-/* Especificidad: 001 */
-footer {
-    background-color: var(--color-principal);
-    color: var(--color-blanco);
-}
-
-/* Especificidad: 002 */
-header a, footer a {
     color: var(--color-secundario);
 }
 
+/* Especificidad: 002,002 */
+header a, footer a {
+    color: var(--color-blanco);
+    /*ADVERTENCIA: Color de fondo heredado de header y footer --color-principal*/
+    text-decoration: none;
+}
+
 /* Especificidad: 001 */
-h1, h2, h3, h4, h5, h6 {
-    color: var(--color-principal);
+h2, h3, h4, h5, h6 {
+    color: var(--color-negro);
+}
+
+nav a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header + nav > ol {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+
+header + nav > ol > li {
+    display: inline;
+}
+
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+section:has(picture) ul li:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+section:has(picture) ul li:nth-child(3) {
+    font-size: 1.5em;
+}
+
+section:has(picture) ul li:nth-child(4) {
+    font-weight: bold;
 }
 

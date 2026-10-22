@@ -9,5 +9,86 @@
 /*  Grupo de laboratorio:                */
 /* ***************************************/
 
+/* Especificidad: 002 */
+section:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+/* Especificidad: 003 */
+section:has(picture) h3 {
+    flex-basis: 100%;
+}
 
+/* Especificidad: 003 */
+section:has(picture) picture {
+    order: 1;
+}
+
+/* Especificidad: 003 */
+section:has(picture) ul {
+    order: 2;
+    list-style: none;
+}
+
+/* Especificidad: 002 */
+section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Especificidad: 002 */
+section:has(article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Especificidad: 003 */
+section:has(article) h3 {
+    grid-column: 1 / -1;
+}
+
+/* Especificidad: 002 */
+section:has(article) article {
+    border: 3px solid #000000;
+    width: 90%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    
+    grid-template-rows: auto auto 1fr auto; 
+    
+    grid-template-areas: 
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+}
+
+/* Especificidad: 001 */
+header {
+    grid-area: cabecera;
+}
+
+/* Especificidad: 002 */
+header + nav {
+    grid-area: migas;
+}
+
+/* Especificidad: 001 */
+main {
+    grid-area: contenido;
+}
+
+/* Especificidad: 001 */
+footer {
+    grid-area: pie;
+}

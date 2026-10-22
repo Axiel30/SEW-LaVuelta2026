@@ -13,10 +13,10 @@
 
 <body>
     <header>
-        <h1>LaVuelta2026</h1>
         <nav>
+            <h1><a href="index.html" title="Página principal de inicio">LaVuelta2026</a></h1>
             <a href="index.html" title="Página principal de inicio">Inicio</a>
-            <a href="ciclista.html" title="Información sobre los ciclistas">Ciclista</a>
+            <a href="ciclista.html" title="Información sobre los ciclistas" aria-current="page">Ciclista</a>
             <a href="equipo.html" title="Información de los equipos participantes">Equipo</a>
             <a href="etapa.html" title="Detalles del recorrido y etapas">Etapa</a>
             <a href="meteorologia.html" title="Previsión meteorológica de la carrera">Meteorología</a>
@@ -26,17 +26,25 @@
         </nav>
     </header>
 
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página principal de inicio">Inicio</a></li>
+            <li>>></li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+
     <main>
         <h2>Gianmarco Garofoli</h2>
 
         <section>
             <h3>Datos personales</h3>
             <ul>
-                <li>Nombre completo: Gianmarco Garofoli</li>
-                <li>Fecha de nacimiento: 6 de octubre de 2002</li>
-                <li>País de nacimiento: Italia</li>
-                <li>Equipo: SOUDAL QUICK-STEP</li>
-                <li>Dorsal: 123</li>
+                <li>Gianmarco Garofoli</li>
+                <li>6 de octubre de 2002</li>
+                <li>Italia</li>
+                <li>SOUDAL QUICK-STEP</li>
+                <li>123</li>
             </ul>
             <picture>
                 <source srcset="multimedia/Ciclista-movil.png" media="(max-width: 768px)" width="180" height="273" />
